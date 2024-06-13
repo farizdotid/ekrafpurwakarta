@@ -31,6 +31,9 @@
 
 You need create a branch based on the name feature. Example, You want a create feature `CRUD Events`, Then you create branch called `feat_crud_events`.
 
+> [!WARNING]
+> Jika branch feature udah dibuat oleh orang lain, Kalau bisa jangan buat lagi yak. Nanti jika sudah mengerjakan fiturnya, Kabarin saya (fariz) aja, Nanti saya merge ke branch development terlebih dahulu.
+
 ### Installation
 
 - Clone this project
