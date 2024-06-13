@@ -1,7 +1,7 @@
 ## Tech Stack
 
-- [Laravel 11](https://laravel.com/docs/).
-- [Filament](https://filamentphp.com/).
+- [Laravel 11](https://laravel.com/docs/)
+- [Filament](https://filamentphp.com/)
 
 ## Feature
 
@@ -27,6 +27,10 @@
 
 ## How to contribute ?
 
+### Create Feature
+
+You need create a branch based on the name feature. Example, You want a create feature `CRUD Events`, Then you create branch called `feat_crud_events`.
+
 ### Installation
 
 - Clone this project
@@ -50,7 +54,3 @@
 ```bash
   php artisan serve
 ```
-
-### Create Feature
-
-You need create a branch based on the name feature. Example, You want a create feature CRUD Events, Then you create branch called feat_crud_events.
