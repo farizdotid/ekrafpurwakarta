@@ -27,7 +27,7 @@
 
 ## How to contribute ?
 
-## Installation
+### Installation
 
 - Clone this project
 - Run composer install
@@ -50,3 +50,7 @@
 ```bash
   php artisan serve
 ```
+
+### Create Feature
+
+You need create a branch based on the name feature. Example, You want a create feature CRUD Events, Then you create branch called feat_crud_events.
