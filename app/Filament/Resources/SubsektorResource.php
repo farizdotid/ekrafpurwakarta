@@ -3,15 +3,14 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\SubsektorResource\Pages;
-use App\Filament\Resources\SubsektorResource\RelationManagers;
 use App\Models\Subsektor;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\FileUpload;
+use Filament\Tables\Columns\ImageColumn;
 
 class SubsektorResource extends Resource
 {
@@ -28,6 +27,13 @@ class SubsektorResource extends Resource
                     ->required()
                     ->unique()
                     ->maxLength(255),
+                FileUpload::make('icon')
+                    ->required()
+                    ->image()
+                    ->moveFiles()
+                    ->maxSize(2048)
+                    ->directory('uploads')
+                    ->visibility('private'),
             ]);
     }
 

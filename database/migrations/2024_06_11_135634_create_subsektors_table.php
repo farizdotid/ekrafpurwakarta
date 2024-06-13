@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('subsektors', function (Blueprint $table) {
             $table->ulid('id')->primary();
             $table->string('name')->unique();
+            $table->string('icon');
             $table->timestamps();
         });
     }

@@ -10,10 +10,11 @@ class Subsektor extends Model
 {
     use HasFactory, HasUlids;
 
-    protected $casts = ['id' => 'string'];
+    protected $casts = ['id' => 'string', 'icon' => 'array'];
     protected $keyType = 'string';
 
     protected $fillable = [
-        'name'
+        'name',
+        'icon'
     ];
 }

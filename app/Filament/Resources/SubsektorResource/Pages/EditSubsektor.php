@@ -5,6 +5,7 @@ namespace App\Filament\Resources\SubsektorResource\Pages;
 use App\Filament\Resources\SubsektorResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
+use Filament\Actions\Action;
 
 class EditSubsektor extends EditRecord
 {
@@ -20,5 +21,10 @@ class EditSubsektor extends EditRecord
     protected function getRedirectUrl(): string
     {
         return $this->getResource()::getUrl('index');
+    }
+
+    protected function getSavedNotificationTitle(): ?string
+    {
+        return 'Data Berhasil Diupdate';
     }
 }

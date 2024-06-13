@@ -32,4 +32,9 @@ class CreateSubsektor extends CreateRecord
                 ->color('secondary'),
         ];
     }
+
+    protected function getSavedNotificationTitle(): ?string
+    {
+        return 'Data Berhasil Disimpan';
+    }
 }
