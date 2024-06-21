@@ -3,6 +3,9 @@
 - [Laravel 11](https://laravel.com/docs/)
 - [Filament](https://filamentphp.com/)
 
+## Database Diagram
+[dbdiagram.io Ekraf Purwakarta](https://dbdiagram.io/d/ekrafpurwakarta-6674f92a5a764b3c720a0735)
+
 ## Feature
 
 ### Backend Dashboard
@@ -11,8 +14,9 @@
 - [ ] CRUD Events
 - [ ] CRUD News
 - [ ] CRUD Banner Information
-- [ ] CRUD Static Variable ( Email, email, dll )
+- [ ] CRUD Static Variable ( Email, phone number, dll )
 - [ ] CRUD User
+- [ ] CRUD Store
 - [ ] CRUD Product
 
 ### Backend API
@@ -20,7 +24,8 @@
 - [ ] API Events
 - [ ] API News
 - [ ] API Banner Information
-- [ ] API Static Variable ( Email, email, dll )
+- [ ] API Static Variable ( Email, phone number, dll )
+- [ ] API User
 - [ ] API Store by User
 - [ ] API Product by store
 - [ ] API All Product
